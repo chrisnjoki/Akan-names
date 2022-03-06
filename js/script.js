@@ -11,4 +11,3 @@ let akan=function(year, month, date, gender) {
     }
     }
     //Front-end logic:
-   
