@@ -13,3 +13,7 @@ body{
 .origin p{
     font-family: 'Times New Roman', Times, serif;
 }
+.tg{
+    border-collapse: collapse;
+    border-spacing: 0ch;
+}
