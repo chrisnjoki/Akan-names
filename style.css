@@ -33,3 +33,8 @@ body{
     overflow: hidden;
     padding: 10px;
 }
+legend{
+    text-align: center;
+    color:bisque;
+    font-size: large;
+}
