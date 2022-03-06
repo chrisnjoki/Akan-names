@@ -12,6 +12,9 @@ body{
 }
 .origin p{
     font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    color:black;
+    font-weight: 500;
 }
 .tg{
     border-collapse: collapse;

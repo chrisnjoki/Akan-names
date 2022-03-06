@@ -11,15 +11,4 @@ let akan=function(year, month, date, gender) {
     }
     }
     //Front-end logic:
-    $(document).readyFunction(); {
-    $("#form").submitFunction(event); {
-    event.preventDefault();
-    let year = parseInt($("#year").val());
-    let month = parseInt($("#month").val());
-    let date = parseInt($("#date").val());
-    let gender =$("input;radio[name=gender];checked");
-    let result= akan(year, month, date, gender);
-    alert("Your Akan name is: " + result);
-    
-    }
-    }
+   
