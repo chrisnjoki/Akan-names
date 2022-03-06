@@ -10,4 +10,6 @@ body{
 .header h2{
     padding: 15px;
 }
-
+.origin p{
+    font-family: 'Times New Roman', Times, serif;
+}
