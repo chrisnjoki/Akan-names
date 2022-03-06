@@ -25,3 +25,11 @@ body{
     overflow: hidden;
     padding: 10px;
 }
+.tg td{
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;
+    padding: 10px;
+}
