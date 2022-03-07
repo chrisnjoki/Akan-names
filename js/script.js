@@ -31,11 +31,11 @@ function submitForm() {
 
     if (maleName.checked == true) {
         nameMenu.innerText= "Your name is: "+ (maleNames[d.getDay()]);
-        alert("Your name is: "+ (maleNames[dateEntered]))
+        alert("Your name is: Male" (maleNames[dateEntered]))
     }
     else if (femaleName.checked == true) {
             nameMenu.innerText = "Your name is: "+ (femaleNames[d.getDay()]);
-            alert("Your name is: "+ (femaleNames[dateEntered]))
+            alert("Your name is: Female" (femaleNames[dateEntered]))
 
     }
    
