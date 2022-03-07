@@ -16,7 +16,8 @@
 
 let nameMenu = document.querySelector("#akan");
 
-let dateEntered = new Date(document.querySelectorAll("#date").value);
+let dateEntered = new Date(document.querySelector("#date").value);
+let date=document.querySelector("#date")
 
 // let button = document.querySelector("#submit");
 
@@ -30,14 +31,25 @@ let finalMenu = dateEntered.getDate();
 function submitForm() {
     event.preventDefault();
     let maleName=document.querySelector("#themale")
+    
     console.log(maleName.checked);
+
+    let femaleName=document.querySelector("#thefemale")
+    console.log(femaleName.checked);
+
+    console.log(date.value);
+    console.log()
+
+    let d=new Date(date.value)
+    console.log(d.getDay());
+
     if (maleName.checked == true) {
-        nameMenu.innerText = "Your name is: "+ (maleNames[dateEntered]);
+        nameMenu.innerText = "Your name is: "+ (maleNames[d.getDay()]);
         alert("Your name is: "+ (maleNames[dateEntered]))
     }
     else if (femaleName.checked == true) {
-            // nameMenu.innerText = `Your name is:  ${femaleNames[dateEntered]}`;
-            nameMenu.innerText = "Your name is: "+ (maleNames[dateEntered]);
+            nameMenu.innerText = "Your name is: "+ (maleNames[d.getDay()]);
+            alert("Your name is: "+ (maleNames[dateEntered]))
 
     }
    
