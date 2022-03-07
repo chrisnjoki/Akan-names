@@ -13,6 +13,6 @@
 //     //Front-end logic:
     
 
-// function submitForm(); {
-//     event.preventDefault();
-// }
+function submitForm(); {
+    event.preventDefault();
+}
