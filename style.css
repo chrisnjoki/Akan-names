@@ -42,11 +42,17 @@ legend{
     font-size: large;
 }
 form{
-    
+
     background-color: #8EC5FC;
     background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
     height: 35vh;
     word-wrap: normal;
     width: 200px;
     float:right;
+}
+img{
+    width: 700px;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
 }
